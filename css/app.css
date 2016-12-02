@@ -6,28 +6,44 @@
             box-sizing: border-box;
 }
 
+h3 {
+  font-size: 16px;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #e0e0e0;
 }
 
 .nav {
-  min-height: 64px;
   border-bottom: 1px solid #e0e0e0;
   background-color: #ffffff;
+  height: 64px;
 }
 
 .logo {
   height: 28px;
   margin-top: 18px;
   margin-left: 20px;
+  float: left;
+}
+.nav-links {
+  display: inline-block;
+  margin-right: 20px;
+}
+.links {
+  display: inline-block;
+  margin-top: 2.5vh;
+  float: right;
+  margin-right: 5vw;
 }
 
 @media screen and (min-width: 62.563em) {
-  button {
+  /*button {
     float: right;
     margin-top: 10px;
-  }
+    position: absolute;
+  }*/
 
   p {
     font-size: 14px;
@@ -41,6 +57,13 @@ body {
   h2 {
     font-size: 20px;
     margin-bottom: 0;
+  }
+  .menu {
+    visibility: hidden;
+  }
+
+  .links {
+    visibility: visible;
   }
 
   .hidden-text {
@@ -138,11 +161,12 @@ body {
 
 
 @media screen and (min-width: 37.439em) and (max-width: 62.562em){
-
+/*
   button {
     float: right;
     margin-top: 10px;
-  }
+    position: absolute;
+  }*/
 
   p {
     font-size: 14px;
@@ -156,6 +180,11 @@ body {
   h2 {
     font-size: 19px;
     margin-bottom: 0;
+  }
+  .menu {
+    visibility: visible;
+    margin-left: 31vw;
+    margin-top: 10px;
   }
 
   .hidden-text {
@@ -248,15 +277,20 @@ body {
     margin:auto;
   }
 
+  .links {
+    visibility: hidden;
+  }
+
 }
 
 
 @media screen and (max-width: 37.438em) {
 
-  button {
+  /*button {
     float: right;
     margin-top: 10px;
-  }
+    position: absolute;
+  }*/
 
   p {
     font-size: 14px;
@@ -270,6 +304,11 @@ body {
   h2 {
     font-size: 18px;
     margin-bottom: 0;
+  }
+  .menu {
+    visibility: visible;
+    margin-left: 50vw;
+    margin-top: 10px;
   }
 
   .hidden-text p {
@@ -352,15 +391,20 @@ body {
     max-width: 1200px;
     margin:auto;
   }
+  .links {
+    visibility: hidden;
+  }
 
 }
 
 @media screen and (max-width: 25.875em) {
 
-  button {
+  /*button {
     float: right;
-    margin-top: 10px;
-  }
+    margin-top: 20px;
+    position: absolute;
+  }*/
+
 
   p {
     font-size: 14px;
@@ -374,6 +418,11 @@ body {
   h2 {
     font-size: 18px;
     margin-bottom: 0;
+  }
+  .menu {
+    visibility: visible;
+    margin-left: 31vw;
+    margin-top: 10px;
   }
 
   .hidden-text p {
@@ -458,6 +507,9 @@ body {
     height: 50vh;
     max-width: 1200px;
     margin:auto;
+  }
+  .links {
+    visibility: hidden;
   }
 
 }
