@@ -14,7 +14,7 @@ body {
   margin-top: 18px;
 }
 
-@media screen and (max-width: 62.5em) {
+@media screen and (min-width: 37.439em) {
 
   button {
     float: right;
@@ -58,14 +58,11 @@ body {
   .textBox1 {
     color: white;
     margin: 0;
-    float: right;
-    max-width: 70vw;
-    margin-top: -5.5em;
-    margin-right: 26px;
+    max-width: 50vw;
   }
 
   .phone-lady {
-    max-width: 23vw;
+    max-width: 50vw;
     background-image: url("../img/phone-lady.jpg");
     background-size: cover;
     background-position: center;
@@ -74,22 +71,22 @@ body {
   }
 
   .mobile-chunk {
-    height: auto;
+    height: 40%;
     min-height: 6em;
     background-color: #0D47A1;
+    max-width: 50vw;
   }
 
   .textBox2 {
     color: white;
     margin: 0;
-    float: right;
     max-width: 70vw;
     margin-top: -5.5em;
     margin-right: 26px;
   }
 
   .tech-folks {
-    max-width: 23vw;
+    max-width: 50vw;
     background-image: url("../img/tech-folks.jpg");
     background-size: cover;
     background-position: center;
