@@ -1,6 +1,6 @@
 # _Think With Google Rebuild_
 
-![screenshot of page](img/Screen-Shot.png)
+![screenshot of page](img/screen-shot.png)
 
 #### _Second CSS project for Epicodus, 12.2.2016_
 
