@@ -14,9 +14,26 @@ body {
   margin-top: 18px;
 }
 
+@media screen and (max-width: 62.5em) {
 
+  button {
+    float: right;
+    margin-top: 10px;
+  }
 
-@media screen and (max-width: 39.9375em) {
+  p {
+    font-size: 14px;
+    opacity: 0.7;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
 
   .couch-dude {
     min-width: 100vw;
@@ -25,21 +42,21 @@ body {
     background-position: center;
     height: 25em;
   }
+  .holiday-chunk {
+    height: auto;
+  }
 
   .textBox1 {
     color: white;
     margin: 0;
     float: right;
-    max-width: 65vw;
-    margin-top: -4.5em;
-  }
-
-  .holiday-chunk {
-    height: auto;
+    max-width: 70vw;
+    margin-top: -5.5em;
+    margin-right: 26px;
   }
 
   .phone-lady {
-    max-width: 30vw;
+    max-width: 23vw;
     background-image: url("../img/phone-lady.jpg");
     background-size: cover;
     background-position: center;
@@ -51,11 +68,19 @@ body {
     height: auto;
     min-height: 6em;
     background-color: #0D47A1;
-    clear: both;
+  }
+
+  .textBox2 {
+    color: white;
+    margin: 0;
+    float: right;
+    max-width: 70vw;
+    margin-top: -5.5em;
+    margin-right: 26px;
   }
 
   .tech-folks {
-    max-width: 30vw;
+    max-width: 23vw;
     background-image: url("../img/tech-folks.jpg");
     background-size: cover;
     background-position: center;
@@ -68,6 +93,25 @@ body {
     min-height: 6em;
     background-color: #009688;
   }
+
+  .holidayBox {
+    width: 90vw;
+    height: 120px;
+    background-color: #263238;
+    float: right;
+    position: absolute;
+    margin-top: -136px;
+    margin-left: 5vw;
+    color: white;
+    padding: 18px;
+    padding-top: 15px;
+  }
+
+}
+
+
+
+
 
   @media screen and (max-width: 37.438em) {
 
