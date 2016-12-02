@@ -20,6 +20,7 @@ body {
 .logo {
   height: 28px;
   margin-top: 18px;
+  margin-left: 20px;
 }
 
 @media screen and (min-width: 37.439em) {
@@ -39,7 +40,7 @@ body {
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 19px;
     margin-bottom: 0;
   }
 
@@ -66,7 +67,9 @@ body {
   .textBox1 {
     color: white;
     margin: 0;
-    max-width: 50vw;
+    max-width: 90%;
+    margin-left: 4%;
+    margin-top: 3%;
   }
 
   .phone-lady {
@@ -75,11 +78,12 @@ body {
     background-size: cover;
     background-position: center;
     min-height: 6em;
+    min-height: 10.699em;
     height: auto;
   }
 
   .mobile-chunk {
-    height: 40%;
+    height: 47%;
     min-height: 6em;
     background-color: #0D47A1;
     max-width: 50vw;
@@ -89,7 +93,9 @@ body {
   .textBox2 {
     color: white;
     margin: 0;
-    max-width: 50vw;
+    max-width: 90%;
+    margin-left: 4%;
+    margin-top: 3%;
   }
 
   .tech-folks {
@@ -97,12 +103,12 @@ body {
     background-image: url("../img/tech-folks.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 6em;
+    min-height: 10.699em;
     height: auto;
   }
 
   .advertising-chunk {
-    height: 40%;
+    height: 47%;
     min-height: 6em;
     background-color: #009688;
     max-width: 50vw;
