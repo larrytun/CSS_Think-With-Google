@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #e0e0e0;
@@ -45,7 +53,7 @@ body {
   }
 
   .couch-dude {
-    min-width: 100vw;
+    min-width: 100%;
     background-image: url("../img/couch-dude.jpg");
     background-size: cover;
     background-position: center;
@@ -75,14 +83,13 @@ body {
     min-height: 6em;
     background-color: #0D47A1;
     max-width: 50vw;
+    float: left;
   }
 
   .textBox2 {
     color: white;
     margin: 0;
-    max-width: 70vw;
-    margin-top: -5.5em;
-    margin-right: 26px;
+    max-width: 50vw;
   }
 
   .tech-folks {
@@ -95,9 +102,11 @@ body {
   }
 
   .advertising-chunk {
-    height: auto;
+    height: 40%;
     min-height: 6em;
     background-color: #009688;
+    max-width: 50vw;
+    float: right;
   }
 
   .holidayBox {
@@ -111,6 +120,12 @@ body {
     color: white;
     padding: 30px;
     padding-top: 30px;
+  }
+
+  .wrapper {
+    height: 50vh;
+    max-width: 1200px;
+    margin:auto;
   }
 
 }
@@ -145,7 +160,7 @@ body {
     }
 
     .couch-dude {
-      min-width: 100vw;
+      min-width: 100%;
       background-image: url("../img/couch-dude.jpg");
       background-size: cover;
       background-position: center;
@@ -244,7 +259,7 @@ body {
   }
 
   .couch-dude {
-    min-width: 100vw;
+    min-width: 100%;
     background-image: url("../img/couch-dude.jpg");
     background-size: cover;
     background-position: center;
