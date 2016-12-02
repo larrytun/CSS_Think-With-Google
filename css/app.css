@@ -1,3 +1,206 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #e0e0e0;
+}
+
+.nav {
+  min-height: 64px;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #ffffff;
+}
+
+.logo {
+  height: 28px;
+  margin-top: 18px;
+}
+
+button {
+  float: right;
+}
+
+
+@media screen and (max-width: 39.9375em) {
+
+  .couch-dude {
+    min-width: 100vw;
+    background-image: url("../img/couch-dude.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 25em;
+  }
+
+
+
+  .textBox1 {
+    color: white;
+    margin: 0;
+    float: right;
+    max-width: 65vw;
+    margin-top: -4.5em;
+  }
+
+  .holiday-chunk {
+    height: auto;
+  }
+
+  .phone-lady {
+    max-width: 30vw;
+    background-image: url("../img/phone-lady.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 6em;
+    height: auto;
+  }
+
+  .mobile-chunk {
+    height: auto;
+    min-height: 6em;
+    background-color: #0D47A1;
+    clear: both;
+  }
+
+  .tech-folks {
+    max-width: 30vw;
+    background-image: url("../img/tech-folks.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 6em;
+    height: auto;
+  }
+
+  .advertising-chunk {
+    height: auto;
+    min-height: 6em;
+    background-color: #009688;
+  }
+
+  @media screen and (max-width: 39.9375em) {
+
+    .couch-dude {
+      min-width: 100vw;
+      background-image: url("../img/couch-dude.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 25em;
+    }
+
+
+
+    .textBox1 {
+      color: white;
+      margin: 0;
+      float: right;
+      max-width: 65vw;
+      margin-top: -4.5em;
+    }
+
+    .holiday-chunk {
+      height: auto;
+    }
+
+    .phone-lady {
+      max-width: 30vw;
+      background-image: url("../img/phone-lady.jpg");
+      background-size: cover;
+      background-position: center;
+      min-height: 6em;
+      height: auto;
+    }
+
+    .mobile-chunk {
+      height: auto;
+      min-height: 6em;
+      background-color: #0D47A1;
+      clear: both;
+    }
+
+    .tech-folks {
+      max-width: 30vw;
+      background-image: url("../img/tech-folks.jpg");
+      background-size: cover;
+      background-position: center;
+      min-height: 6em;
+      height: auto;
+    }
+
+    .advertising-chunk {
+      height: auto;
+      min-height: 6em;
+      background-color: #009688;
+    }
+
+}
+
+@media screen and (max-width: 25.875em) {
+
+  p {
+    font-size: 14px;
+    opacity: 0.7;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .couch-dude {
+    min-width: 100vw;
+    background-image: url("../img/couch-dude.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 25em;
+  }
+
+  .holiday-chunk {
+    height: auto;
+  }
+
+  .textBox1 {
+    color: white;
+    margin: 0;
+    float: right;
+    max-width: 60vw;
+    margin-top: -7.2em;
+    margin-right: 26px;
+  }
+
+  .phone-lady {
+    max-width: 30vw;
+    background-image: url("../img/phone-lady.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 8em;
+    height: auto;
+  }
+
+  .mobile-chunk {
+    height: auto;
+    min-height: 6em;
+    background-color: #0D47A1;
+  }
+
+  .textBox2 {
+    color: white;
+    margin: 0;
+    float: right;
+    max-width: 60vw;
+    margin-top: -7.2em;
+    margin-right: 26px;
+  }
+
+  .tech-folks {
+    max-width: 30vw;
+    background-image: url("../img/tech-folks.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 8em;
+    height: auto;
+  }
+
+  .advertising-chunk {
+    height: auto;
+    min-height: 6em;
+    background-color: #009688;
+  }
+
 }
